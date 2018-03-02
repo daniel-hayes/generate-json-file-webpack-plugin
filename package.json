@@ -1,0 +1,32 @@
+{
+  "name": "generate-json-file-webpack-plugin",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "pretest": "npm run lint",
+    "test": "mocha tests/"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "json",
+    "generate",
+    "generate-json-file-webpack-plugin"
+  ],
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "bugs": "https://github.com/daniel-hayes/generate-json-file-webpack-plugin/issues",
+  "homepage": "https://github.com/daniel-hayes/generate-json-file-webpack-plugin",
+  "repository": "https://github.com/daniel-hayes/generate-json-file-webpack-plugin.git",
+  "author": "Daniel Hayes <dan.rdhayes@gmail.com> (https://github.com/daniel-hayes)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "mocha": "^5.0.1"
+  }
+}
