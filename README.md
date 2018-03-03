@@ -128,7 +128,6 @@ And the output file:
 ```
 
 ### Todo:
-- add an example file
 - add tests
 
 ## License
