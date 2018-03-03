@@ -1,12 +1,13 @@
 {
   "name": "generate-json-file-webpack-plugin",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Webpack plugin that creates a custom JSON file.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./",
     "pretest": "npm run lint",
-    "test": "mocha tests/"
+    "test": "mocha tests/",
+    "precommit": "npm run test"
   },
   "keywords": [
     "webpack",
